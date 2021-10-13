@@ -1,0 +1,16 @@
+name: MiraiMcChatClient
+version: @version@
+main: net.prasyb.miraimcchatbukkit.MiraiMcChat
+api-version: 1.15
+commands:
+  mcchat:
+    usage: "/mcchat <subcommand> <...>" # 用法
+    description: "Mcchat Commands" # 描述
+permissions:
+  miraimcchat.*:
+    description: Gives access to all miraimcchat commands
+    children:
+      miraimcchat.mcchat: true
+  miraimcchat.mcchat:
+    description: Allows you to use miraimcchat commands
+    default: op

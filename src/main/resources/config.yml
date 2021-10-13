@@ -1,0 +1,7 @@
+connection:
+  port: 0
+  host: "0.0.0.0"
+  send_enabled: true
+  receive_enabled: true
+  enabled: true
+  key: ""
